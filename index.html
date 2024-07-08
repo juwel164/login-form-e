@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-C7jiKh7b.css">
+</head>
+<body class="bg-center">
+
+  <div class="form-container mx-auto w-[300px] sm:w-[400px] sm:p-10 h-[content] bg-[#1b1b33] mt-[150px] p-5 rounded-xl py-7 border border-gray-600">
+    <div class="top-item">
+      <div class="top-head">
+        <h2 class="text-white text-2xl text-center">Create an account</h2>
+      </div>
+      <div class="top-content">
+        <div class="social-item flex justify-center gap-8 mt-5">
+          <div class="social flex gap-2 px-4 py-2 bg-[#26273b] rounded-lg items-center">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALXSURBVHgBvZbPT9RAFMffm5ZdcI0uCf5ALwWPGl3i7glNChq9aISsHIgHVq/G4MGLIWZ344Gj+BewHhQ9IMuVCJTEg0GjvWm80ItZhcAuPw3bdsZpodgt27USwvfQTt/MvM+8edPXIvxDC3JcZiLe4k0ZGZMYYHS7S+NtldvGTaorzYqq+fnAms4FTFvOIYCQYWaNlp+3KGopEGShM/GMITyE/5dmmnqHNyriHTV/JTG8R4AliZBQymsU3Q92BACpGk40AKbZLYYxvg9RdydjmD0xNZvxTtrZrvnORIo/DVfzzJBlqSHmmpUPmtte4HME4HlDfiB8ABWQxZ7zc+ZSWPKsTEPKuo8rH1XwUVGORTeEkHx6cjbvN8aGlCeEFFsND6+NtoL5q+FvrwlttQBBZSceCfaRo2U4cu8bNFwuOFFk9wNgyUm87BjqL/0EC7gy3pqrNkHOFHmy66MQUEqmQcPyBMSQiF+8fXVXjY6qkKerMiE4DUHFIhJBFHetCgE12CdRttZC4ABEDMPQvEYGLAb7KPsI6+/EIr/tbNvM5kl4NB9vVO/mdxU7ebAoEUNMVfVGSB9fouQ2UV1vdCBWImWrPbR+Dt78PmOd4eyn3rcZCCgbTuvm3DZeorTpgcNbOTEZjhfMQ3B/uX0LYMeI6cTLnsDbxgFpr41HoNh91iUs6rkHK+2lz3pT5SiBjgUBdQ6uW4CU104pe7EN29LFV8kuJDBWzQkPO2cyM6v25jW3PT7Sxb+W0XR46aYcWr7umYX5qYFIdwXEBr1ODnFDP/gJQeXEkl3iGUjgOiyh0jWoX7zjLKtEdaNNyTRquyA2aCSZQ4Q+2IOI0QSRH4+BlI91Tz6J7FRlwTuwMPo1fyp5lr/0wb7tblGyUTLC33vf99+oKPu+PxIxnnBBMMc4TYIA8stbTYij+MhtmTFmHYoL3FEMt/PAq4KGiCo12QzdpLlqL66jP8ptHTBJi2ELAAAAAElFTkSuQmCC" alt="" class="w-5">
+          <p class=" text-gray-400 font-semibold text-sm">Google</p>
+          </div>
+          <div class="social flex gap-2 px-4 py-2 bg-[#26273b] rounded-lg items-center">
+          <div class="img w-full bg-white rounded-full">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIXSURBVHgBtVVLctNAEO0nC8csIPKCilkhbkBOgDkB4QQ4J4i8wGEXe0GVKxt8A8wN4AbOCaIbYFYxKymEqjgJUtMtKfInkiVi561Go57XPW/6A1oBy/GsWtU8IHCTiG0i2LrPRD6IXGb+DiP8NunXx3kcyNpsfPRs4soXWTapHIaEoJflyFje2Dn8c8BcOf0PckULcuZ559xZ/rFwg0bn4kjk6NI6YHQnx096dxxo5KBwUIqD2QXgJ2tLWGwQrJSUuX12vD1IHajmKot8WKuIQewywnfLWjc65/IGeD+zI58R7Kpd/AZcOSoiF6Px5VX4ZlXGpJbKFScJIcmYH0WHJKz9Sf/pcH6r4VzaEeHWzWcJcG/5yPQqqJscGntAIT0FQeAukB/+lghvWrHvbNSqhmPIY72lEjCrNS8l11tLahYeAl4botcrejjYRvHjrucAoiXn/YX5yD779PgnFWCnc3EKcKYSmqZjWhN55FoPazt49sHLfUORxjWl1k8khGaWQfj3ui1VGrWE6XU48Af1aB23ccNJwn+R5wDaziPjrYpHBZh/j/LFGbw0kqhGtHkMZ70Iwb5OKdoQmNjXAaTryEHUwJh7tCFI9abTLZ1ov7R/YwNOhON2Fiw4UEz6210ZIO37yKWy6KBRjvn9OzNZbwIZFiLZVyqPERDuzkd+CzPLOtGvJenYjdt5ZscdiRwn0+msPrLwDwec5iiKbPIiAAAAAElFTkSuQmCC" alt="" class="w-5">
+          </div>
+          <p class=" text-gray-400 font-semibold text-sm">Facebook</p>
+          </div>
+        </div>
+        <div class="or mt-3">
+          <p class="text-gray-400 text-center text-sm">Or</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-form">
+      <form action="">
+       <div class="inputs mt-3 flex flex-col">
+        <label for="email" class="text-gray-400 text-sm">Email</label>
+        <input type="email" placeholder="juwel@gmail.com" class="w-full px-3 py-2 bg-transparent mt-1 outline-sky-500 border-gray-500 border rounded text-sm">
+       </div>
+       <div class="inputs mt-5 flex flex-col">
+        <label for="password" class="text-gray-400 text-sm">Password</label>
+        <input type="password" placeholder="Enter your password" class="w-full px-3 py-2 bg-transparent mt-1 outline-sky-500 border-gray-500 border rounded text-sm">
+       </div>
+       <button class="w-full py-2 bg-sky-500 text-white font-semibold text-sm mt-5 rounded">Create account</button>
+      </form>
+      <p class="text-gray-400 text-sm mt-4 text-center">Already Have an account?<a href="#" class="text-sky-500"> Log in</a></p>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
